@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAFAFA;
+    font-family: 'PT Serif';
+}
+
+header {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-top: 7.4%;
+    margin-bottom: 100px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 2.9rem;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins";
+}
+
+.subtitle-h2 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.687rem;
+    text-transform: uppercase;
+}
+
+.subtitle-p {
+    width: 400px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: none;
+}
+
+.container {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+figure {
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.offset-mahoney {
+    margin-left: 1%;
+    margin-right: 0;
+}
+
+.offset-cabrera {
+    margin-top: 130px;
+    margin-left: 0;  
+    margin-right: 0;
+}    
+
+.offset-le {
+    margin-left: 0;
+}
+
+.offset-lu {
+    margin-top: 45px;
+    margin-right: 0;
+    margin-left: 1%;
+}
+
+.offset-richards {
+    margin-top: 150px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.offset-john {
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+img {
+    width: 300px;
+    aspect-ratio: 300 / 450; 
+}
+
+figcaption {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.job-title {
+    color: gray;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transform: rotate(90deg);
+} 
+
+.offset-job-title {
+    width: 20px;
+    height: 200px;
+    margin-top: 0;
+}
+
+footer {
+    margin-top: 100px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 17.07px;
+    text-align: center;
+}
+
+/* media query for mobile screens */
+
+@media screen and (max-width: 375px) {
+    
+    body {
+        width: 375px;
+        margin: 10%;
+    }
+
+    header {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 2%;
+        margin-top: 8%;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    figure {
+        width: 30%;
+    }
+
+    figcaption {
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .job-title {
+        font-weight: 100;
+        font-size: 6px;
+    } 
+    
+    .offset-job-title {
+        width: 20px;
+        height: 200px;
+        margin-top: 0;
+    }
+
+    img {
+        width: 112.5px;
+        aspect-ratio: 112.5 / 168.75; 
+    }
+
+    .offset-mahoney {
+        margin-left: 0;
+    }
+    
+    .offset-cabrera {
+        position: absolute;
+        top: 355px;
+        left: 205px;
+        margin-top: 85px;
+    }
+
+    .offset-lu {
+        position: absolute;
+        top: 630px;
+        left: 203px;
+        margin-top: 45px;
+    }
+
+    .offset-richards {
+        position: absolute;
+        top: 725px;
+    }
+    
+    .offset-john {
+        position: absolute;
+        top:  870px;
+        left: 203px;
+        margin-top: 45px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 160px;
+        font-family: "Montserrat";
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+    }
+
+
+        
+} 
+
+  
